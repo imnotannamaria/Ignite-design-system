@@ -1,3 +1,6 @@
+// src/index.tsx
+import React from "react";
+
 // ../tokens/dist/index.mjs
 var colors = {
   white: "#FFF",
@@ -16,5 +19,12 @@ var colors = {
   ignite900: "#00291D"
 };
 
-// src/index.ts
-console.log(colors);
+// src/index.tsx
+function App() {
+  return /* @__PURE__ */ React.createElement("h1", {
+    style: { color: colors.ignite300 }
+  }, "Hello World!");
+}
+export {
+  App
+};
