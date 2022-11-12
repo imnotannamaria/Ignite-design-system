@@ -5,7 +5,7 @@
 - [x] Box
 - [x] Button
 - [x] TextInput
-- [ ] TextArea
+- [x] TextArea
 - [ ] CheckBox
 - [x] Avatar
 - [ ] MiltiStep
