@@ -1,0 +1,2 @@
+import{A as t}from"./index.6dc95871.js";import"./index.01d20f22.js";import"./iframe.ff710455.js";import"./index.34e224ca.js";import"./jsx-runtime.6d2eca35.js";const n={title:"Data display/Avatar",component:t,args:{src:"https://github.com/imnotannamaria.png",alt:"Anna Maria"},argTypes:{src:{control:{type:"text"}}}},m={},p={args:{src:void 0}},c=["Primary","WithFallback"];export{m as Primary,p as WithFallback,c as __namedExportsOrder,n as default};
+//# sourceMappingURL=Avatar.stories.b061ca5c.js.map

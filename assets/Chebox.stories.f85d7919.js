@@ -1,0 +1,2 @@
+import{C as r,B as e,T as s}from"./index.6dc95871.js";import{a as t,j as c}from"./jsx-runtime.6d2eca35.js";import"./index.01d20f22.js";import"./iframe.ff710455.js";import"./index.34e224ca.js";const l={title:"Form/Checkbox",component:r,args:{},argTypes:{onClick:{action:"check/unckeck"}},decorators:[o=>t(e,{as:"label",css:{display:"flex",flexDirection:"column",gap:"$2"},children:[c(s,{size:"sm",children:"Accept terms of use"}),o()]})]},x={},d=["Primary"];export{x as Primary,d as __namedExportsOrder,l as default};
+//# sourceMappingURL=Chebox.stories.f85d7919.js.map
