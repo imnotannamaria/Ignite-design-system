@@ -414,12 +414,57 @@ function Checkbox2(props) {
     weight: "bold"
   })));
 }
+
+// src/components/MultiStep/index.tsx
+import React4 from "react";
+
+// src/components/MultiStep/styles.ts
+var MultiStepContainer = styled("div", {});
+var Label = styled(Text, {
+  color: "$gray200",
+  defaultVariants: {
+    size: "xs"
+  }
+});
+var Steps = styled("div", {
+  display: "grid",
+  gridTemplateColumns: "repeat(var(--steps-size), 1fr)",
+  gap: "$2",
+  marginTop: "$1"
+});
+var Step = styled("div", {
+  height: "$1",
+  borderRadius: "$px",
+  backgroundColor: "$gray600",
+  variants: {
+    active: {
+      true: {
+        backgroundColor: "$gray100"
+      }
+    }
+  }
+});
+
+// src/components/MultiStep/index.tsx
+function MultiStep({ size, currentStep = 1 }) {
+  return /* @__PURE__ */ React4.createElement(MultiStepContainer, null, /* @__PURE__ */ React4.createElement(Label, null, "Passo ", currentStep, " de ", size), /* @__PURE__ */ React4.createElement(Steps, {
+    css: {
+      "--steps-size": size
+    }
+  }, Array.from({ length: size }, (_, i) => i + 1).map((step) => {
+    return /* @__PURE__ */ React4.createElement(Step, {
+      active: currentStep >= step,
+      key: step
+    });
+  })));
+}
 export {
   Avatar2 as Avatar,
   Box,
   Button,
   Checkbox2 as Checkbox,
   Heading,
+  MultiStep,
   Text,
   TextArea,
   TextInput
