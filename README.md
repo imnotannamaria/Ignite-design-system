@@ -6,6 +6,6 @@
 - [x] Button
 - [x] TextInput
 - [x] TextArea
-- [ ] CheckBox
+- [x] CheckBox
 - [x] Avatar
 - [ ] MiltiStep
