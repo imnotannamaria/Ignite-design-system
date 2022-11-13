@@ -106,6 +106,7 @@ var Box = styled("div", {
   backgroundColor: "$gray800",
   border: "1px solid $gray600"
 });
+Box.displayName = "Box";
 
 // src/components/Text.tsx
 var Text = styled("p", {
@@ -134,6 +135,7 @@ var Text = styled("p", {
     size: "md"
   }
 });
+Text.displayName = "Text";
 
 // src/components/Heading.tsx
 var Heading = styled("h2", {
@@ -157,6 +159,7 @@ var Heading = styled("h2", {
     size: "md"
   }
 });
+Heading.displayName = "Heading";
 
 // src/components/Avatar/index.tsx
 import { User } from "phosphor-react";
@@ -198,6 +201,7 @@ function Avatar2(props) {
     delayMs: 600
   }, /* @__PURE__ */ React.createElement(User, null)));
 }
+Avatar2.displayName = "Avatar";
 
 // src/components/Button.tsx
 var Button = styled("button", {
@@ -270,6 +274,7 @@ var Button = styled("button", {
     size: "md"
   }
 });
+Button.displayName = "Button";
 
 // src/components/TextInput/index.tsx
 import React2 from "react";
@@ -322,6 +327,7 @@ function TextInput({ prefix, ...props }) {
     ...props
   }));
 }
+TextInput.displayName = "TextInput";
 
 // src/components/TextArea.tsx
 var TextArea = styled("textarea", {
@@ -348,6 +354,7 @@ var TextArea = styled("textarea", {
     color: "$gray400"
   }
 });
+TextArea.displayName = "TextArea";
 
 // src/components/Checkbox/index.tsx
 import { Check } from "phosphor-react";
@@ -414,6 +421,7 @@ function Checkbox2(props) {
     weight: "bold"
   })));
 }
+Checkbox2.displayName = "Checkbox";
 
 // src/components/MultiStep/index.tsx
 import React4 from "react";
@@ -458,6 +466,7 @@ function MultiStep({ size, currentStep = 1 }) {
     });
   })));
 }
+MultiStep.displayName = "MultiStep";
 export {
   Avatar2 as Avatar,
   Box,
